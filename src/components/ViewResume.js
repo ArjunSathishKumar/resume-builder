@@ -39,8 +39,6 @@ const ViewResume = () => {
                 </Row>
               );
             })}
-
-            {/* <Row className="skills">Address</Row> */}
           </Row>
         </Col>
         <Col xs={12} md={8} className="body-2">
@@ -75,15 +73,6 @@ const ViewResume = () => {
                 </Row>
               );
             })}
-            {/* <Row className="experience">
-              <Col xs={12} md={3} className="year">
-                2010
-              </Col>
-              <Col xs={12} md={9}>
-                <Row className="designation">Degree</Row>
-                <Row className="company">College</Row>
-              </Col>
-            </Row> */}
           </Row>
         </Col>
       </Row>

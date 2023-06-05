@@ -32,52 +32,6 @@ const CreateResume = () => {
     }
   };
 
-  // const validate = (values) => {
-  //   const errors = {};
-
-  //   const educationsArrayErrors = [];
-  //   values?.educations.forEach((member, index) => {
-  //     const educationErrors = {};
-
-  //     // Validate individual member fields
-  //     if (!member.institution) {
-  //       educationErrors.institution = "Required";
-  //     }
-  //     if (!member.year && member.year.length !== 4) {
-  //       educationErrors.year = "Required";
-  //     }
-  //     if (!member.degree) {
-  //       educationErrors.degree = "Required";
-  //     }
-
-  //     educationsArrayErrors[index] = educationErrors;
-  //   });
-  //   if (educationsArrayErrors.length) {
-  //     errors.educations = educationsArrayErrors;
-  //   }
-
-  //   const experiencesArrayErrors = [];
-  //   values?.experiences.forEach((member, index) => {
-  //     const experienceErrors = {};
-
-  //     if (!member.company) {
-  //       experienceErrors.company = "Required";
-  //     }
-  //     if (!member.year && member.year.length !== 4) {
-  //       experienceErrors.year = "Required";
-  //     }
-  //     if (!member.designation) {
-  //       experienceErrors.designation = "Required";
-  //     }
-
-  //     experiencesArrayErrors[index] = experienceErrors;
-  //   });
-  //   if (experiencesArrayErrors.length) {
-  //     errors.experiences = experiencesArrayErrors;
-  //   }
-  //   return errors;
-  // };
-
   const validatePhoneNumber = (input_str) => {
     var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
 
@@ -99,7 +53,6 @@ const CreateResume = () => {
           ...arrayMutators,
         }}
         onSubmit={onSubmit}
-        // validate={validate}
         initialValues={{
           educations: [
             {
