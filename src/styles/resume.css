@@ -76,6 +76,11 @@
   min-width: 150px;
 }
 
+@media only screen and (max-width: 768px) { 
+  .resume-container .education-container .addBtn {
+    margin-top: 20px;
+  }
+}
 .skill-container {
   padding: 10px;
   border-bottom: 1px solid;

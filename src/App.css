@@ -9,9 +9,15 @@
   overflow: auto;
 }
 
+.main-container .home-link {
+  text-decoration: none;
+  color: white;
+}
+
 h1 {
   display: flex;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .view-container {

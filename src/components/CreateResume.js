@@ -19,12 +19,12 @@ const CreateResume = () => {
     const educationValidation = values?.educations.every(
       (item) => item.institution && item.year && item.degree
     );
-    eduRequired = educationValidation ? "" : "* Required";
+    eduRequired = educationValidation ? "" : "* All Fields are Required";
 
     const experienceValidation = values?.experiences.every(
       (item) => item.company && item.year && item.designation
     );
-    expRequired = experienceValidation ? "" : "* Required";
+    expRequired = experienceValidation ? "" : "* All Fields are Required";
 
     if (educationValidation && experienceValidation) {
       dispatch(createResumeAction(values));

@@ -11,7 +11,6 @@ function App() {
   return (
     <Provider store={store}>
       <Container className="main-container">
-        <h1>Resume Builder</h1>
         <RouterPage />
       </Container>
     </Provider>
