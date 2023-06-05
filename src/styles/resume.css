@@ -1,0 +1,118 @@
+.resume-container {
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.resume-container .personal-container {
+  border-bottom: 1px solid;
+}
+
+.resume-container h1 {
+  font-family: auto;
+}
+
+.resume-container .row-container {
+  padding: 10px;
+  align-items: center;
+}
+
+.resume-container .row-container .title {
+  text-align: left;
+  font-size: 22px;
+  font-family: serif;
+  font-style: italic;
+}
+
+.resume-container .row-container .data-field {
+  width: 100%;
+  min-height: 50px;
+  border-radius: 5px;
+  border-color: burlywood;
+}
+
+.resume-container .error-col {
+  color: red;
+  font-size: 13px;
+}
+
+.resume-container .education-container {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+.resume-container .header {
+  text-align: left;
+  font-size: 25px;
+  width: 100%;
+  font-family: serif;
+  margin-top: 20px;
+}
+
+.resume-container .education-container .error-col {
+  margin-left: 20px;
+}
+
+.resume-container .education-container .row-container {
+  margin-bottom: 20px;
+}
+
+.resume-container .education-container .iconStyle {
+  height: 0px;
+  cursor: pointer;
+}
+
+.resume-container .submitBtn {
+  margin: 40px 0px 20px;
+  background: #1f883d;
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: fangsong;
+}
+
+.resume-container .education-container .addBtn {
+  margin-bottom: 20px;
+  min-width: 150px;
+}
+
+.skill-container {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+.skill-container .react-tags-wrapper {
+  padding: 10px;
+}
+
+.skill-container .ReactTags__selected {
+  display: flex;
+  flex-direction: column;
+}
+.skill-container .ReactTags__tagInput {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.skill-container .ReactTags__selected .ReactTags__tag {
+  min-height: 35px;
+  font-family: serif;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0;
+  display: flex;
+}
+
+.skill-container .ReactTags__selected .ReactTags__remove {
+  margin: 0 5px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+.skill-container .ReactTags__tagInput .ReactTags__tagInputField {
+  min-width: 30%;
+  min-height: 40px;
+  border-radius: 5px;
+  border-color: burlywood;
+}
